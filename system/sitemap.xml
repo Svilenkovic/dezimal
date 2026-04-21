@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+    
+    <!-- Main Pages -->
+    <url>
+        <loc>https://dezimal.rs/</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+
+    </url>
+    
+    
+    <!-- Section Anchors with Enhanced Priority -->
+    <url>
+        <loc>https://dezimal.rs/#services</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/#about</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/#contact</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Additional Service-Specific Pages -->
+    <url>
+        <loc>https://dezimal.rs/services/4g-optimization</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/5g-implementation</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/rf-planning</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/volte-implementation</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/iot-solutions</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/project-management</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/ran-optimization</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/network-planning</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/performance-analysis</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/drive-test-analysis</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/capacity-planning</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/interference-analysis</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/strategic-planning</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/technology-evaluation</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/market-analysis</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/services/network-expansion</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Blog/Resources Section -->
+    <url>
+        <loc>https://dezimal.rs/blog</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://dezimal.rs/resources</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Case Studies -->
+    <url>
+        <loc>https://dezimal.rs/case-studies</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Testimonials -->
+    <url>
+        <loc>https://dezimal.rs/testimonials</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- FAQ Page -->
+    <url>
+        <loc>https://dezimal.rs/faq</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Careers/Jobs -->
+    <url>
+        <loc>https://dezimal.rs/careers</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Partners -->
+    <url>
+        <loc>https://dezimal.rs/partners</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- News/Updates -->
+    <url>
+        <loc>https://dezimal.rs/news</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Events -->
+    <url>
+        <loc>https://dezimal.rs/events</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Downloads -->
+    <url>
+        <loc>https://dezimal.rs/downloads</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Support -->
+    <url>
+        <loc>https://dezimal.rs/support</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Training -->
+    <url>
+        <loc>https://dezimal.rs/training</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Consulting Process -->
+    <url>
+        <loc>https://dezimal.rs/process</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Technology Expertise -->
+    <url>
+        <loc>https://dezimal.rs/technologies</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Industry Solutions -->
+    <url>
+        <loc>https://dezimal.rs/industries</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Geographic Coverage -->
+    <url>
+        <loc>https://dezimal.rs/coverage</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Quality Assurance -->
+    <url>
+        <loc>https://dezimal.rs/quality</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Certifications -->
+    <url>
+        <loc>https://dezimal.rs/certifications</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Awards -->
+    <url>
+        <loc>https://dezimal.rs/awards</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Press Releases -->
+    <url>
+        <loc>https://dezimal.rs/press</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Media Kit -->
+    <url>
+        <loc>https://dezimal.rs/media-kit</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <!-- Sitemap -->
+    <url>
+        <loc>https://dezimal.rs/sitemap.xml</loc>
+        <lastmod>2026-01-02T12:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+</urlset> 

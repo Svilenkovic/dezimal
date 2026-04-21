@@ -1,0 +1,151 @@
+/* Smooth Animations and Performance Optimizations */
+
+/* Global smooth animations */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Container overflow fixes */
+.container, .max-w-7xl, .max-w-6xl, .max-w-4xl, .max-w-3xl, .max-w-2xl {
+    overflow: hidden;
+    contain: layout;
+}
+
+/* Section overflow fixes */
+section {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Grid and flex container fixes */
+.grid, .flex, .stagger-container {
+    overflow: hidden;
+}
+
+/* Card smooth animations */
+.card-animate,
+.service-card,
+.about-feature,
+.about-card,
+.contact-form,
+.contact-info {
+    overflow: hidden;
+    will-change: transform, opacity, box-shadow;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+/* Smooth transitions */
+.transition-all,
+.hover-lift,
+.hover-scale,
+.hover-glow {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+/* Prevent text selection during animations */
+.animate-on-scroll,
+.card-animate,
+.service-card {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Smooth hover effects */
+.hover-lift:hover {
+    transform: translateY(-3px) translateZ(0);
+}
+
+.hover-scale:hover {
+    transform: scale(1.02) translateZ(0);
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    .card-animate,
+    .service-card,
+    .about-feature {
+        transform: translateY(15px) scale(0.98) translateZ(0);
+    }
+    
+    .card-animate.visible,
+    .service-card.visible,
+    .about-feature.visible {
+        transform: translateY(0) scale(1) translateZ(0);
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .card-animate,
+    .service-card,
+    .about-feature,
+    .hover-lift,
+    .hover-scale {
+        transition: none !important;
+        animation: none !important;
+        transform: none !important;
+    }
+}
+
+/* Performance hints */
+.animate-on-scroll,
+.section-animate,
+.card-animate {
+    contain: layout style paint;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-padding-top: 80px;
+}
+
+/* Prevent layout shifts */
+img, video, iframe, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Smooth focus states */
+button:focus,
+input:focus,
+textarea:focus,
+a:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+    transition: outline 0.2s ease;
+}
+
+/* Smooth loading states */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Smooth error states */
+.error {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0) translateZ(0); }
+    25% { transform: translateX(-5px) translateZ(0); }
+    75% { transform: translateX(5px) translateZ(0); }
+}

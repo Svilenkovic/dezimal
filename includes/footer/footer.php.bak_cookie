@@ -1,0 +1,63 @@
+    <footer class="footer bg-gray-50 text-gray-900 py-8 section-animate" style="opacity: 1 !important; visibility: visible !important; display: block !important; position: relative !important; z-index: 1000 !important;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Quick Links Section -->
+            <div class="mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Services Quick Links -->
+                    <div class="footer-section">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Our Services</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#services" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Project Management</a></li>
+                            <li><a href="#services" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Network Optimization</a></li>
+                            <li><a href="#services" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Planning & Strategy</a></li>
+                            <li><a href="#services" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Operational Efficiency</a></li>
+                            <li><a href="#services" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Training & Development</a></li>
+                            <li><a href="#services" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Technology Expertise</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Company Info -->
+                    <div class="footer-section">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Company</h3>
+                        <ul class="space-y-2">
+                            <li><a href="/#about" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a></li>
+                            <li><a href="/#contact" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a></li>
+                            <li><a href="mailto:info@dezimal.rs" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">info@dezimal.rs</a></li>
+                            <li><a href="tel:+381666776733" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">+381 66 677 6733</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Legal & Partners -->
+                    <div class="footer-section">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Legal & Partners</h3>
+                        <ul class="space-y-2">
+                            <li><a href="/legal.php#privacy" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Privacy Policy</a></li>
+                            <li><a href="/legal.php#terms" class="footer-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Terms & Conditions</a></li>
+                            <?php
+                            ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright Section -->
+            <div class="border-t border-gray-300 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-gray-600 text-sm mb-4 md:mb-0">
+                        <p>&copy; 2025-<?php echo date('Y'); ?> Dezimal Consulting. All rights reserved.</p>
+                    </div>
+                    <div class="text-gray-600 text-sm">
+                        <p>Professional mobile telecommunications consulting</p>
+                    </div>
+                </div>
+                <div class="text-center mt-4 pt-4 border-t border-gray-200">
+                    <p class="text-gray-500 text-xs">
+                        Dizajn i Razvoj: <a href="https://svilenkovic.com" target="_blank" rel="noopener" class="text-blue-600 hover:text-blue-800 transition-colors duration-300">D.Svilenkovic</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/includes/sections/contact/contact.js"></script>
+</body>
+</html>

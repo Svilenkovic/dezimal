@@ -1,0 +1,352 @@
+User-agent: *
+Allow: /
+
+# Enhanced Sitemap
+Sitemap: https://dezimal.rs/system/sitemap.xml
+Sitemap: https://dezimal.rs/system/sitemap-index.xml
+Sitemap: https://dezimal.rs/system/bing.xml
+Sitemap: https://dezimal.rs/system/yandex.xml
+Sitemap: https://dezimal.rs/system/sitemap.xml.gz
+Sitemap: https://dezimal.rs/system/sitemap-news.xml
+Sitemap: https://dezimal.rs/system/sitemap-video.xml
+Sitemap: https://dezimal.rs/system/sitemap-image.xml
+Sitemap: https://dezimal.rs/system/sitemap-services.xml
+Sitemap: https://dezimal.rs/system/sitemap-blog.xml
+Sitemap: https://dezimal.rs/system/sitemap-resources.xml
+Sitemap: https://dezimal.rs/system/sitemap-cases.xml
+Sitemap: https://dezimal.rs/system/sitemap-technologies.xml
+Sitemap: https://dezimal.rs/system/sitemap-industries.xml
+Sitemap: https://dezimal.rs/system/sitemap-geographic.xml
+Sitemap: https://dezimal.rs/system/sitemap-company.xml
+Sitemap: https://dezimal.rs/system/sitemap-legal.xml
+
+# Optimized Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Enhanced Search Engine Support
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /assets/images/
+Allow: /assets/favicons/
+Crawl-delay: 1
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot-Mobile
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexImages
+Allow: /
+Allow: /assets/images/
+Allow: /assets/favicons/
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 1
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 1
+
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 1
+
+User-agent: Applebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 2
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Crawl-delay: 1
+
+# Enhanced Security - Disallow sensitive areas
+Disallow: /admin/
+Disallow: /administrator/
+Disallow: /system/config/
+Disallow: /system/handlers/
+Disallow: /includes/
+Disallow: /system/
+Disallow: /system/vendor/
+Disallow: /backup/
+Disallow: /temp/
+Disallow: /cache/
+Disallow: /logs/
+Disallow: /private/
+Disallow: /secure/
+Disallow: /*.php$
+Disallow: /*.log$
+Disallow: /*.txt$
+Disallow: /*.xml$
+Disallow: /*.json$
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.old$
+Disallow: /*.tmp$
+Disallow: /*.cache$
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/uploads/
+Disallow: /wp-json/
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /changelog.txt
+Disallow: /upgrade.txt
+
+# Enhanced Allow Rules for Important Content
+
+# Enhanced Asset Allowance
+Allow: /assets/css/*.css
+Allow: /assets/js/*.js
+Allow: /assets/images/*.png
+Allow: /assets/images/*.jpg
+Allow: /assets/images/*.jpeg
+Allow: /assets/images/*.gif
+Allow: /assets/images/*.svg
+Allow: /assets/images/*.webp
+Allow: /assets/images/*.ico
+Allow: /assets/favicons/*.ico
+Allow: /assets/favicons/*.png
+Allow: /assets/favicons/*.svg
+
+# Enhanced Includes Allowance
+Allow: /includes/header/*.css
+Allow: /includes/header/*.js
+Allow: /includes/footer/*.css
+Allow: /includes/footer/*.js
+Allow: /includes/sections/*.php
+Allow: /includes/sections/*.css
+Allow: /includes/sections/*.js
+
+# Enhanced Service Pages
+Allow: /services/
+Allow: /blog/
+Allow: /resources/
+Allow: /case-studies/
+Allow: /testimonials/
+Allow: /faq/
+Allow: /careers/
+Allow: /partners/
+Allow: /news/
+Allow: /events/
+Allow: /downloads/
+Allow: /support/
+Allow: /training/
+Allow: /process/
+Allow: /technologies/
+Allow: /industries/
+Allow: /coverage/
+Allow: /quality/
+Allow: /certifications/
+Allow: /awards/
+Allow: /press/
+Allow: /media-kit/
+
+# Enhanced Social Media and Sharing
+Allow: /share/
+Allow: /social/
+Allow: /embed/
+
+# Enhanced Search and Navigation
+Allow: /search/
+Allow: /sitemap/
+Allow: /rss/
+Allow: /feed/
+
+# Enhanced Performance and Analytics
+Allow: /analytics/
+Allow: /stats/
+Allow: /metrics/
+
+# Enhanced Mobile and App Support
+Allow: /mobile/
+Allow: /app/
+Allow: /api/
+
+# Enhanced Localization
+Allow: /en/
+Allow: /sr/
+Allow: /rs/
+
+# Enhanced Security Headers
+Allow: /security/
+Allow: /gdpr/
+Allow: /cookies/
+
+# Enhanced Business Pages
+Allow: /company/
+Allow: /about-us/
+Allow: /team/
+Allow: /leadership/
+Allow: /mission/
+Allow: /vision/
+Allow: /values/
+Allow: /history/
+Allow: /timeline/
+
+# Enhanced Service Categories
+Allow: /telecommunications/
+Allow: /network-optimization/
+Allow: /4g-services/
+Allow: /5g-services/
+Allow: /rf-planning/
+Allow: /volte/
+Allow: /iot/
+Allow: /project-management/
+Allow: /consulting/
+Allow: /strategy/
+
+# Enhanced Industry Pages
+Allow: /telecom/
+Allow: /mobile-operators/
+Allow: /network-providers/
+Allow: /infrastructure/
+Allow: /wireless/
+Allow: /broadband/
+Allow: /cellular/
+
+# Enhanced Technology Pages
+Allow: /lte/
+Allow: /5g-technology/
+Allow: /network-architecture/
+Allow: /protocols/
+Allow: /standards/
+Allow: /specifications/
+
+# Enhanced Geographic Pages
+Allow: /serbia/
+Allow: /balkans/
+Allow: /europe/
+Allow: /global/
+Allow: /worldwide/
+
+# Enhanced Content Types
+Allow: /whitepapers/
+Allow: /case-studies/
+Allow: /reports/
+Allow: /guides/
+Allow: /tutorials/
+Allow: /webinars/
+Allow: /videos/
+Allow: /podcasts/
+Allow: /infographics/
+Allow: /presentations/
+
+# Enhanced Business Development
+Allow: /partnerships/
+Allow: /alliances/
+Allow: /certifications/
+Allow: /accreditations/
+Allow: /memberships/
+Allow: /associations/
+
+# Enhanced Customer Support
+Allow: /help/
+Allow: /support/
+Allow: /contact-us/
+Allow: /get-quote/
+Allow: /request-demo/
+Allow: /schedule-consultation/
+
+# Enhanced SEO and Marketing
+Allow: /seo/
+Allow: /marketing/
+Allow: /advertising/
+Allow: /promotions/
+Allow: /campaigns/
+
+# Enhanced Legal and Compliance
+Allow: /compliance/
+Allow: /regulations/
+Allow: /standards/
+Allow: /certifications/
+
+# Enhanced Performance Monitoring
+Allow: /performance/
+Allow: /monitoring/
+Allow: /analytics/
+Allow: /reporting/
+Allow: /dashboards/
+
+# Enhanced Host Information
+Host: https://dezimal.rs
+
+# Enhanced Crawl Instructions
+# This robots.txt file is optimized for search engine crawling
+# and indexing of the Dezimal Consulting website.
+# Last updated: 2025-01-08
+
+# Allow access to important SEO files
+Allow: /system/sitemap.xml
+Allow: /system/sitemap-index.xml
+Allow: /system/bing.xml
+Allow: /system/yandex.xml
+Allow: /system/sitemap.xml.gz
+Allow: /system/sitemap-news.xml
+Allow: /system/sitemap-video.xml
+Allow: /system/sitemap.txt
+Allow: /system/sitemap.html
+Allow: /system/feed.xml
+Allow: /system/rss.xml
+Allow: /system/opensearch.xml
+Allow: /system/manifest.json
+Allow: /system/ads.txt
+Allow: /system/app-ads.txt
+Allow: /system/verification.txt
+Allow: /system/humans.txt
+Allow: /.well-known/security.txt 

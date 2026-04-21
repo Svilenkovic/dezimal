@@ -1,0 +1,151 @@
+{
+    "name": "Dezimal Consulting - Expert 4G/5G Network Optimization & Telecommunications Consulting",
+    "short_name": "Dezimal",
+    "description": "Leading telecommunications consultant specializing in 4G/5G network optimization, RF planning, VoLTE implementation, and IoT solutions. Expert RAN optimization and project management for telecom operators worldwide.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1e40af",
+    "theme_color": "#1e40af",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en",
+    "dir": "ltr",
+    "categories": ["business", "productivity", "utilities", "telecommunications", "consulting"],
+    "keywords": ["telecommunications", "4G", "5G", "network optimization", "RF planning", "VoLTE", "IoT", "consulting"],
+    "author": "Dezimal Consulting",
+    "version": "1.0.0",
+    "icons": [
+        {
+            "src": "/assets/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/assets/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/assets/favicons/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/mstile-150x150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/mstile-310x310.png",
+            "sizes": "310x310",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/favicons/mstile-70x70.png",
+            "sizes": "70x70",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        
+        {
+            "name": "Contact Us",
+            "short_name": "Contact",
+            "description": "Contact us for professional telecommunications consulting services",
+            "url": "/#contact",
+            "icons": [
+                {
+                    "src": "/assets/favicons/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        },
+        {
+            "name": "4G/5G Optimization",
+            "short_name": "4G/5G",
+            "description": "Expert mobile network optimization services for 4G and 5G technologies",
+            "url": "/services/4g-optimization",
+            "icons": [
+                {
+                    "src": "/assets/favicons/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        },
+        {
+            "name": "RF Planning",
+            "short_name": "RF Planning",
+            "description": "Advanced RF planning and optimization services for telecommunications networks",
+            "url": "/services/rf-planning",
+            "icons": [
+                {
+                    "src": "/assets/favicons/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        },
+        {
+            "name": "Case Studies",
+            "short_name": "Cases",
+            "description": "View our successful telecommunications consulting projects and case studies",
+            "url": "/case-studies",
+            "icons": [
+                {
+                    "src": "/assets/favicons/favicon-32x32.png",
+                    "sizes": "32x32"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/assets/images/screenshot-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Dezimal Consulting Desktop View"
+        },
+        {
+            "src": "/assets/images/screenshot-mobile.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Dezimal Consulting Mobile View"
+        }
+    ],
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://dezimal.rs"
+        }
+    ],
+    "prefer_related_applications": false,
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    },
+    "protocol_handlers": [
+        {
+            "protocol": "mailto",
+            "url": "/contact?email=%s"
+        },
+        {
+            "protocol": "tel",
+            "url": "/contact?phone=%s"
+        }
+    ]
+} 

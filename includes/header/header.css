@@ -1,0 +1,20 @@
+.header {
+    transition: all 0.3s ease;
+}
+
+.header.scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile menu subtle animation */
+#mobile-menu {
+    transition: opacity 0.2s ease;
+}
+
+/* Backdrop and drawer animations */
+#mobile-menu .mobile-backdrop { transition: opacity 0.2s ease; opacity: 0; }
+#mobile-menu.open .mobile-backdrop { opacity: 0.4; }
+
+#mobile-menu .mobile-panel { transition: transform 0.25s ease; transform: translateX(100%); }
+#mobile-menu.open .mobile-panel { transform: translateX(0); }
