@@ -1,33 +1,37 @@
 # Dezimal
 
-Produkcioni/demonstracioni kod korporativnog sajta za telecom consulting, organizovan kao PHP aplikacija sa modularnim include i system slojem.
+Production/demo source for a telecom consulting corporate website, organized as a PHP application with modular includes and system-level configuration.
 
-## Tehnologije
+## Tech Stack
 
 - PHP
 - HTML/CSS/JavaScript
-- Strukturisana SEO mapa (`sitemap.xml`, `system/sitemap.xml`, `robots.txt`)
+- SEO files (`sitemap.xml`, `system/sitemap.xml`, `robots.txt`)
 
-## Struktura
+## Project Structure
 
-- `index.php`: ulazna tacka
-- `includes/`: header, sekcije i footer komponente
-- `system/`: konfiguracija, SEO i pomocni sistemski fajlovi
-- `privacy.php`, `terms.php`, `legal.php`: pravne stranice
+- `index.php`: application entry point
+- `includes/`: reusable header/sections/footer components
+- `system/`: configuration and SEO support files
+- `privacy.php`, `terms.php`, `legal.php`: legal pages
 
-## Lokalni razvoj
+## Local Preview
 
 ```bash
 php -S 127.0.0.1:8080
 ```
 
-## Live Preview
+## Live Site
 
 - https://dezimal.svilenkovic.rs
 - https://dezimal.rs
 
-## Deploy smernice
+## Deployment Notes
 
-- Repo je spreman za direktan deploy na PHP/Nginx hosting.
-- Posle izmena proveri canonical/og/robots/sitemap reference.
-- Ako menjas domen, azuriraj i root i `system` SEO fajlove.
+- Designed for direct deployment to PHP/Nginx hosting.
+- Verify canonical tags, Open Graph metadata, robots, and sitemap references after domain-level changes.
+- If domain mapping changes, update both root-level and `system/` SEO files.
+
+## Language Note
+
+The website content is intentionally in Serbian for the target audience.
