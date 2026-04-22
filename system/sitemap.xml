@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
@@ -10,7 +10,7 @@
     
     <!-- Main Pages -->
     <url>
-        <loc>https://dezimal.rs/</loc>
+        <loc>https://dezimal.svilenkovic.rs/</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -20,21 +20,21 @@
     
     <!-- Section Anchors with Enhanced Priority -->
     <url>
-        <loc>https://dezimal.rs/#services</loc>
+        <loc>https://dezimal.svilenkovic.rs/#services</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/#about</loc>
+        <loc>https://dezimal.svilenkovic.rs/#about</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/#contact</loc>
+        <loc>https://dezimal.svilenkovic.rs/#contact</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -42,112 +42,112 @@
     
     <!-- Additional Service-Specific Pages -->
     <url>
-        <loc>https://dezimal.rs/services/4g-optimization</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/4g-optimization</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/5g-implementation</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/5g-implementation</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/rf-planning</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/rf-planning</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/volte-implementation</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/volte-implementation</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/iot-solutions</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/iot-solutions</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/project-management</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/project-management</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/ran-optimization</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/ran-optimization</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/network-planning</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/network-planning</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/performance-analysis</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/performance-analysis</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/drive-test-analysis</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/drive-test-analysis</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/capacity-planning</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/capacity-planning</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/interference-analysis</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/interference-analysis</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/strategic-planning</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/strategic-planning</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/technology-evaluation</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/technology-evaluation</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/market-analysis</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/market-analysis</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/services/network-expansion</loc>
+        <loc>https://dezimal.svilenkovic.rs/services/network-expansion</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -155,14 +155,14 @@
     
     <!-- Blog/Resources Section -->
     <url>
-        <loc>https://dezimal.rs/blog</loc>
+        <loc>https://dezimal.svilenkovic.rs/blog</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     
     <url>
-        <loc>https://dezimal.rs/resources</loc>
+        <loc>https://dezimal.svilenkovic.rs/resources</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -170,7 +170,7 @@
     
     <!-- Case Studies -->
     <url>
-        <loc>https://dezimal.rs/case-studies</loc>
+        <loc>https://dezimal.svilenkovic.rs/case-studies</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -178,7 +178,7 @@
     
     <!-- Testimonials -->
     <url>
-        <loc>https://dezimal.rs/testimonials</loc>
+        <loc>https://dezimal.svilenkovic.rs/testimonials</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -186,7 +186,7 @@
     
     <!-- FAQ Page -->
     <url>
-        <loc>https://dezimal.rs/faq</loc>
+        <loc>https://dezimal.svilenkovic.rs/faq</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -194,7 +194,7 @@
     
     <!-- Careers/Jobs -->
     <url>
-        <loc>https://dezimal.rs/careers</loc>
+        <loc>https://dezimal.svilenkovic.rs/careers</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -202,7 +202,7 @@
     
     <!-- Partners -->
     <url>
-        <loc>https://dezimal.rs/partners</loc>
+        <loc>https://dezimal.svilenkovic.rs/partners</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -210,7 +210,7 @@
     
     <!-- News/Updates -->
     <url>
-        <loc>https://dezimal.rs/news</loc>
+        <loc>https://dezimal.svilenkovic.rs/news</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -218,7 +218,7 @@
     
     <!-- Events -->
     <url>
-        <loc>https://dezimal.rs/events</loc>
+        <loc>https://dezimal.svilenkovic.rs/events</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -226,7 +226,7 @@
     
     <!-- Downloads -->
     <url>
-        <loc>https://dezimal.rs/downloads</loc>
+        <loc>https://dezimal.svilenkovic.rs/downloads</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -234,7 +234,7 @@
     
     <!-- Support -->
     <url>
-        <loc>https://dezimal.rs/support</loc>
+        <loc>https://dezimal.svilenkovic.rs/support</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -242,7 +242,7 @@
     
     <!-- Training -->
     <url>
-        <loc>https://dezimal.rs/training</loc>
+        <loc>https://dezimal.svilenkovic.rs/training</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -250,7 +250,7 @@
     
     <!-- Consulting Process -->
     <url>
-        <loc>https://dezimal.rs/process</loc>
+        <loc>https://dezimal.svilenkovic.rs/process</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -258,7 +258,7 @@
     
     <!-- Technology Expertise -->
     <url>
-        <loc>https://dezimal.rs/technologies</loc>
+        <loc>https://dezimal.svilenkovic.rs/technologies</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -266,7 +266,7 @@
     
     <!-- Industry Solutions -->
     <url>
-        <loc>https://dezimal.rs/industries</loc>
+        <loc>https://dezimal.svilenkovic.rs/industries</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -274,7 +274,7 @@
     
     <!-- Geographic Coverage -->
     <url>
-        <loc>https://dezimal.rs/coverage</loc>
+        <loc>https://dezimal.svilenkovic.rs/coverage</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -282,7 +282,7 @@
     
     <!-- Quality Assurance -->
     <url>
-        <loc>https://dezimal.rs/quality</loc>
+        <loc>https://dezimal.svilenkovic.rs/quality</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -290,7 +290,7 @@
     
     <!-- Certifications -->
     <url>
-        <loc>https://dezimal.rs/certifications</loc>
+        <loc>https://dezimal.svilenkovic.rs/certifications</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -298,7 +298,7 @@
     
     <!-- Awards -->
     <url>
-        <loc>https://dezimal.rs/awards</loc>
+        <loc>https://dezimal.svilenkovic.rs/awards</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -306,7 +306,7 @@
     
     <!-- Press Releases -->
     <url>
-        <loc>https://dezimal.rs/press</loc>
+        <loc>https://dezimal.svilenkovic.rs/press</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
@@ -314,7 +314,7 @@
     
     <!-- Media Kit -->
     <url>
-        <loc>https://dezimal.rs/media-kit</loc>
+        <loc>https://dezimal.svilenkovic.rs/media-kit</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
@@ -322,10 +322,11 @@
     
     <!-- Sitemap -->
     <url>
-        <loc>https://dezimal.rs/sitemap.xml</loc>
+        <loc>https://dezimal.svilenkovic.rs/sitemap.xml</loc>
         <lastmod>2026-01-02T12:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.3</priority>
     </url>
     
 </urlset> 
+

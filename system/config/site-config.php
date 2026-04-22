@@ -6,8 +6,8 @@
 
 // Site Information
 define('SITE_NAME', 'Dezimal Consulting');
-define('SITE_URL', 'https://dezimal.rs');
-define('SITE_DESCRIPTION', 'Professional telecommunications consulting for mobile network optimization, 4G/5G technologies, project management and strategic planning.');
+define('SITE_URL', 'https://dezimal.svilenkovic.rs');
+define('SITE_DESCRIPTION', 'Demo presentation website for telecommunications consulting, 4G/5G technologies, project management, and strategic planning.');
 
 // Contact Information
 define('CONTACT_EMAIL', 'info@dezimal.rs');
@@ -37,8 +37,8 @@ define('EMAIL_FROM_ADDRESS', 'noreply@dezimal.rs');
 define('EMAIL_ADMIN', 'info@dezimal.rs');
 
 // SEO Settings
-define('DEFAULT_META_TITLE', 'Dezimal Consulting | Telecommunications Consultant | Mobile Network Optimization 4G/5G');
-define('DEFAULT_META_DESCRIPTION', 'Professional telecommunications consulting for mobile network optimization, 4G/5G technologies, project management and strategic planning.');
+define('DEFAULT_META_TITLE', 'DEMO SAJT | Dezimal Consulting | Telecommunications Consultant | Mobile Network Optimization 4G/5G');
+define('DEFAULT_META_DESCRIPTION', 'Demo presentation of a telecommunications consulting website for mobile network optimization and 4G/5G services.');
 define('DEFAULT_META_KEYWORDS', 'telecommunications, mobile networks, 4G, 5G, consulting, optimization, network optimization, project management');
 
 // Analytics

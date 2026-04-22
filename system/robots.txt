@@ -1,24 +1,24 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
 # Enhanced Sitemap
-Sitemap: https://dezimal.rs/system/sitemap.xml
-Sitemap: https://dezimal.rs/system/sitemap-index.xml
-Sitemap: https://dezimal.rs/system/bing.xml
-Sitemap: https://dezimal.rs/system/yandex.xml
-Sitemap: https://dezimal.rs/system/sitemap.xml.gz
-Sitemap: https://dezimal.rs/system/sitemap-news.xml
-Sitemap: https://dezimal.rs/system/sitemap-video.xml
-Sitemap: https://dezimal.rs/system/sitemap-image.xml
-Sitemap: https://dezimal.rs/system/sitemap-services.xml
-Sitemap: https://dezimal.rs/system/sitemap-blog.xml
-Sitemap: https://dezimal.rs/system/sitemap-resources.xml
-Sitemap: https://dezimal.rs/system/sitemap-cases.xml
-Sitemap: https://dezimal.rs/system/sitemap-technologies.xml
-Sitemap: https://dezimal.rs/system/sitemap-industries.xml
-Sitemap: https://dezimal.rs/system/sitemap-geographic.xml
-Sitemap: https://dezimal.rs/system/sitemap-company.xml
-Sitemap: https://dezimal.rs/system/sitemap-legal.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-index.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/bing.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/yandex.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap.xml.gz
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-news.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-video.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-image.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-services.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-blog.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-resources.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-cases.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-technologies.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-industries.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-geographic.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-company.xml
+Sitemap: https://dezimal.svilenkovic.rs/system/sitemap-legal.xml
 
 # Optimized Crawl-delay for respectful crawling
 Crawl-delay: 1
@@ -324,7 +324,7 @@ Allow: /reporting/
 Allow: /dashboards/
 
 # Enhanced Host Information
-Host: https://dezimal.rs
+Host: https://dezimal.svilenkovic.rs
 
 # Enhanced Crawl Instructions
 # This robots.txt file is optimized for search engine crawling

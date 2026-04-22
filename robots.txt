@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://dezimal.rs/sitemap.xml
+Sitemap: https://dezimal.svilenkovic.rs/sitemap.xml
 Disallow: /includes/

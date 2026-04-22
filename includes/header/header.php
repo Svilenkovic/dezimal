@@ -9,28 +9,28 @@ header("X-Frame-Options: DENY");
 header("X-XSS-Protection: 1; mode=block");
 
 // SEO: dynamic metadata per page
-$baseUrl = 'https://dezimal.rs';
+$baseUrl = 'https://dezimal.svilenkovic.rs';
 $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
 $currentPath = strtok($requestUri, '?') ?: '/';
 
-$pageTitle = 'Dezimal Consulting | Telecommunications Consulting | 4G/5G, RF, VoLTE';
-$metaDescription = 'Expert consulting for mobile network optimization, RF planning, 4G/5G, and VoLTE implementation. RAN optimization, project management, and strategic planning.';
+$pageTitle = 'DEMO SAJT | Dezimal Consulting | Telecommunications Consulting | 4G/5G, RF, VoLTE';
+$metaDescription = 'Demo prikaz sajta za telecommunications consulting: mobile network optimization, RF planning, 4G/5G i VoLTE implementacija.';
 $canonicalUrl = rtrim($baseUrl, '/') . '/';
 $ogType = 'website';
 
 if ($currentPath === '/terms.php') {
-    $pageTitle = 'Terms & Conditions | Dezimal Consulting';
-    $metaDescription = 'Terms & Conditions for using Dezimal Consulting website and services.';
+    $pageTitle = 'DEMO | Terms & Conditions | Dezimal Consulting';
+    $metaDescription = 'Demo pravna stranica sajta Dezimal Consulting.';
     $canonicalUrl = rtrim($baseUrl, '/') . '/terms.php';
     $ogType = 'article';
 } elseif ($currentPath === '/privacy.php') {
-    $pageTitle = 'Privacy Policy | Dezimal Consulting';
-    $metaDescription = 'Privacy Policy explaining what data we collect, how we use it, and your rights.';
+    $pageTitle = 'DEMO | Privacy Policy | Dezimal Consulting';
+    $metaDescription = 'Demo privacy stranica sajta Dezimal Consulting.';
     $canonicalUrl = rtrim($baseUrl, '/') . '/privacy.php';
     $ogType = 'article';
 } elseif ($currentPath === '/legal.php') {
-    $pageTitle = 'Legal | Privacy Policy & Terms | Dezimal Consulting';
-    $metaDescription = 'Privacy Policy and Terms & Conditions for Dezimal Consulting in one place.';
+    $pageTitle = 'DEMO | Legal | Privacy Policy & Terms | Dezimal Consulting';
+    $metaDescription = 'Demo legal stranica sajta Dezimal Consulting.';
     $canonicalUrl = rtrim($baseUrl, '/') . '/legal.php';
     $ogType = 'article';
 }
@@ -79,13 +79,13 @@ if ($currentPath === '/terms.php') {
     <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta property="og:image" content="https://dezimal.rs/og-image.jpg">
+    <meta property="og:image" content="<?php echo htmlspecialchars(rtrim($baseUrl, '/') . '/og-image.jpg', ENT_QUOTES, 'UTF-8'); ?>">
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@dezimalrs">
     <meta name="twitter:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
     <meta name="twitter:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta name="twitter:image" content="https://dezimal.rs/og-image.jpg">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars(rtrim($baseUrl, '/') . '/og-image.jpg', ENT_QUOTES, 'UTF-8'); ?>">
     
     <script type="application/ld+json">
     {
@@ -93,8 +93,8 @@ if ($currentPath === '/terms.php') {
       "@type": "Organization",
       "name": "Dezimal Consulting",
       "alternateName": "Dezimal",
-      "url": "https://dezimal.rs/",
-      "logo": "https://dezimal.rs/logo.png",
+    "url": "https://dezimal.svilenkovic.rs/",
+    "logo": "https://dezimal.svilenkovic.rs/logo.png",
       "description": "Expert telecommunications consulting for mobile network optimization, 4G/5G technologies, RF planning, VoLTE implementation, and IoT solutions. Specialized in RAN optimization, project management, and strategic planning for telecom operators worldwide.",
       "foundingDate": "2020",
       "address": {
@@ -129,7 +129,7 @@ if ($currentPath === '/terms.php') {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Dezimal Consulting",
-      "url": "https://dezimal.rs/",
+    "url": "https://dezimal.svilenkovic.rs/",
       "inLanguage": "en-US",
       "publisher": {
         "@type": "Organization",
@@ -211,3 +211,10 @@ if ($currentPath === '/terms.php') {
             </nav>
         </div>
     </header>
+
+    <div class="mt-16 bg-amber-100 border-b border-amber-300 text-amber-900 relative z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 text-sm">
+            <strong>DEMO SAJT:</strong> Ovo je demonstraciona verzija sajta. Za izradu sličnog sajta kontaktirajte
+            <a href="https://svilenkovic.com" target="_blank" rel="noopener" class="underline font-semibold hover:text-amber-700">svilenkovic.com</a>.
+        </div>
+    </div>
