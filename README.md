@@ -1,51 +1,33 @@
 # Dezimal
 
-Public source snapshot for dezimal.rs website.
-
-## Sadrzaj
-
-- Pregled
-- Tehnologije
-- Pokretanje lokalno
-- Struktura projekta
-- Live Preview
-- Odrzavanje
+Produkcioni/demonstracioni kod korporativnog sajta za telecom consulting, organizovan kao PHP aplikacija sa modularnim include i system slojem.
 
 ## Tehnologije
 
-- Nije automatski detektovano
+- PHP
+- HTML/CSS/JavaScript
+- Strukturisana SEO mapa (`sitemap.xml`, `system/sitemap.xml`, `robots.txt`)
 
-## Pokretanje lokalno
+## Struktura
+
+- `index.php`: ulazna tacka
+- `includes/`: header, sekcije i footer komponente
+- `system/`: konfiguracija, SEO i pomocni sistemski fajlovi
+- `privacy.php`, `terms.php`, `legal.php`: pravne stranice
+
+## Lokalni razvoj
 
 ```bash
-# Nema standardnog package manager fajla u korenu repoa
-# Proveri postojece skripte i konfiguracione fajlove
+php -S 127.0.0.1:8080
 ```
 
-## Struktura projekta
-
-- `404.html`
-- `favicon.svg`
-- `.htaccess`
-- `includes`
-- `index.html.disabled`
-- `index.php`
-- `legal.php`
-- `maintenance.html`
-- `maintenance.php`
-- `privacy.php`
-- `README.md`
-- `robots.txt`
-- `sitemap.xml`
-- `system`
-- `terms.php`
-
 ## Live Preview
-- https://dezimal.rs
+
 - https://dezimal.svilenkovic.rs
+- https://dezimal.rs
 
-## Odrzavanje
+## Deploy smernice
 
-- Odrzavaj README azurnim kada menjas arhitekturu, build ili deploy proces.
-- Za produkcione promene vodi racuna o konfiguraciji okruzenja i bezbednosti tajnih podataka.
-- Pre merge-a proveri lint/test/build korake koji postoje u ovom projektu.
+- Repo je spreman za direktan deploy na PHP/Nginx hosting.
+- Posle izmena proveri canonical/og/robots/sitemap reference.
+- Ako menjas domen, azuriraj i root i `system` SEO fajlove.
